@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto Slab');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 * {
     box-sizing: border-box;
@@ -13,6 +13,7 @@ body {
 }
 
 h3 {
+    font-family: 'Times New Roman', Times, serif;
     margin: 10px 0;
 }
 
@@ -28,6 +29,7 @@ p {
     margin: 14px;
     height: 60px;
     overflow: hidden;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .more {
@@ -43,7 +45,7 @@ p {
 
 @media screen and(max-width:600px)
 {
-    .container{
+    .silder{
         width: 100%;
         display:block;
         margin-bottom: 20px;
@@ -78,6 +80,16 @@ p {
     
 }
 
+@media screen and(max-width:600px)
+{
+    .card-container.round{
+        width: 100%;
+        display:block;
+        margin-bottom: 20px;
+
+    }
+}
+
 .card-container .round {
     height: 120px;
     width: 120px;
@@ -94,7 +106,7 @@ button.primary {
     box-sizing: border-box;
     background: linear-gradient(130deg, #2ab26f 0%, #0084ba 100%);;
     border: 1px solid #03bfcb;
-    border-radius: 3px;
+    border-radius: 5px;
     color: #f1f1f1;
     font-family: Montserrat, sans-serif;
     font-weight: 500;
